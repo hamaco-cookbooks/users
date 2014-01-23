@@ -6,6 +6,7 @@ data_ids.each do |data_id|
     uid      usr["uid"]
     password usr["password"]
     comment  usr["comment"]
+    home     usr["home"]
     shell    usr["shell"]
     supports :manage_home => true
     action   :create
